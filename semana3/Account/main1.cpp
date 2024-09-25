@@ -13,6 +13,9 @@ int main() {
     string theName;
     getline(cin, theName);
     myAccount.setName(theName);
+    cin.ignore();
+    getline(cin, theName);
+    cout << theName << endl;
 
     cout << "El nombre en el objeto my Account es: "
             << myAccount.getName() << endl;

@@ -20,5 +20,10 @@ int main() {
         cout << " " << arr[i];
     }
 
+    cout << "\nImprimiendo la suma de los elementos";
+    int sum{0};
+    for(int i = 0; i < 4; sum += arr[i++]);
+    cout << "la suma es : " << sum << endl;
+
     return 0;
 }

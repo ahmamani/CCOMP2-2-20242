@@ -16,8 +16,7 @@ int main() {
     cout<<"ingrese edad: ";
     int edad;
     cin>>edad;
-    myestudi.setAge(edad);
-    
+    myestudi.setAge(edad);    
 
     cout << "La edad del estudiante es:"
             << myestudi.getAge() << endl;
