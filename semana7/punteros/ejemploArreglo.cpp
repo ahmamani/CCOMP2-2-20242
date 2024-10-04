@@ -19,7 +19,7 @@ void printArray(const int arr[], const int size) {
 }
 
 int main() {
-    int array[] = {1,2,3,4,5,6,7,8,9};
+    int array[] = {1,2,3,4,5,6,7,8,9,10,12,13,14};
     int tam = sizeof(array) / sizeof(array[0]);
     duplicateElems(array, tam);
     printArray(array, tam);
