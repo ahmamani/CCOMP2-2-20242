@@ -17,11 +17,11 @@ class Point {
         int getY() const {
             return y;
         }
-        void setX(int _x) {
-            x = _x;
+        void setX(int x) {
+            this->x = x;
         }
-        void setY(int _y) {
-            y = _y;
+        void setY(int y) {
+            this->y = y;
         }
         void print() const {
             std::cout << "(" << x << ", " << y << ")" << std::endl;
