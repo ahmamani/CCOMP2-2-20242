@@ -8,8 +8,8 @@ class Point {
         int x;
         int y;
     public:
-        Point(): x{0}, y{0} {
-            std::cout << "Default constructor" << std::endl;            
+        Point(int _x = 0, int _y = 0): x{_x}, y{_y} {
+            std::cout << "Constructor" << std::endl;            
         }
         int getX() const {
             return x;
@@ -25,6 +25,10 @@ class Point {
         }
         void print() const {
             std::cout << "(" << x << ", " << y << ")" << std::endl;
+        }
+
+        ~Point() {
+            std::cout << "Destructor" << std::endl;
         }
 };
 

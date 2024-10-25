@@ -26,5 +26,5 @@ int main() {
     Point arr[3];
     int tam = sizeof(arr) / sizeof(arr[0]);
     printPointArr(arr, tam);
-
+    
 }
